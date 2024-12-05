@@ -483,7 +483,7 @@ x = setInterval(function() {
       }
       setTimeout(openBox, stepMinutes[step - 1]);
       step++;
-      //   setTimeout(anim, 1900);
+      //   setTimeout(anim, 1000);
     }
 
     function showfireworks() {
