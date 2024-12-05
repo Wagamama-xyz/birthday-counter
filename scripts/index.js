@@ -48,7 +48,7 @@ x = setInterval(function() {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY', 'BIRTHDAY!', config.name],
+      strings: ['HAPPY', 'BIRTHDAY!', 'Barakallah fii umrik',config.name],
       charSize: 30,
       charSpacing: 35,
       lineHeight: 40,
@@ -483,7 +483,7 @@ x = setInterval(function() {
       }
       setTimeout(openBox, stepMinutes[step - 1]);
       step++;
-      //   setTimeout(anim, 1000);
+      //   setTimeout(anim, 1200);
     }
 
     function showfireworks() {
